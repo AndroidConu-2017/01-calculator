@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="add">Add</string>
+    <string name="subtr">Subtract</string>
+    <string name="mult">Multiply</string>
+    <string name="div">Divide</string>
+
+</resources>
