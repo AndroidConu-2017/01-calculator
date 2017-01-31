@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addNums(View v) {
-        if (!readNums())
-            return;
+        num1 = Double.parseDouble(etNum1.getText().toString());
+        num2 = Double.parseDouble(etNum2.getText().toString());
         result.setText(Double.toString(num1+num2));
     }
     public void subtrNums(View v) {

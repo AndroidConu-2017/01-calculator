@@ -14,36 +14,36 @@
         android:id="@+id/num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter a number" />
+        android:hint="@string/enter_hint" />
     <EditText
         android:id="@+id/num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter a number" />
+        android:hint="@string/enter_hint" />
     <Button
         android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="addNums"
-        android:text="add" />
+        android:text="@string/add" />
     <Button
         android:id="@+id/subtr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="subtrNums"
-        android:text="subtract" />
+        android:text="@string/subtr" />
     <Button
         android:id="@+id/mult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="multNums"
-        android:text="multiply" />
+        android:text="@string/mult" />
     <Button
         android:id="@+id/div"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="divNums"
-        android:text="divide" />
+        android:text="@string/div" />
 
     <TextView
         android:id="@+id/result"

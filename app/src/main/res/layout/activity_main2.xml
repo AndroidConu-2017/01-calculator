@@ -11,15 +11,17 @@
     android:orientation="vertical"
     tools:context="campbell.ca.hw.MainActivity">
     <EditText
+        style="@style/numberIn"
         android:id="@+id/num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter a number" />
+        android:hint="@string/enter_hint" />
     <EditText
+        style="@style/numberIn"
         android:id="@+id/num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter a number" />
+        android:hint="@string/enter_hint" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,37 +29,37 @@
         android:orientation="horizontal" >
 
     <Button
+        style="@style/buttons"
         android:id="@+id/add"
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:onClick="addNums"
-        android:textSize="@dimen/button_size"
-        android:text="add" />
+        android:text="@string/add" />
     <Button
+        style="@style/buttons.alt"
         android:id="@+id/subtr"
-        android:textSize="@dimen/button_size"
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:onClick="subtrNums"
-        android:text="subtract" />
+        android:text="@string/subtr" />
     <Button
+        style="@style/buttons"
         android:id="@+id/mult"
-        android:textSize="@dimen/button_size"
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:onClick="multNums"
-        android:text="multiply" />
+        android:text="@string/mult" />
     <Button
+        style="@style/buttons.alt"
         android:id="@+id/div"
-        android:textSize="@dimen/button_size"
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:onClick="divNums"
-        android:text="divide" />
+        android:text="@string/div" />
     </LinearLayout>
 
     <TextView
