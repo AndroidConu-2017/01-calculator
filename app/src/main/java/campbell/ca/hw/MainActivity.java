@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main);
         // get a handle to text fields
         etNum1 = (EditText) findViewById(R.id.num1);
         etNum2 = (EditText) findViewById(R.id.num2);

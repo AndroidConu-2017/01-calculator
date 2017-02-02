@@ -10,7 +10,7 @@
     <style name="numberIn">
        <item name="android:inputType">number</item>
     </style>
-    <style name="buttons"  >
+    <style name="buttons" parent="@android:style/Theme.Material.Light" >
         <!-- colour pink #FF00FF -->
         <item name="android:background">@color/pink</item>
         <item name="android:textColor">#0065FF</item>
@@ -18,5 +18,11 @@
     </style>
     <style name="buttons.alt" >
         <item name="android:background">@color/pinkish</item>
+    </style>
+    <style name="style1.pink" >
+        <item name="android:textColor">#FF00FF</item>
+    </style>
+    <style name="style1.pink.big" >
+        <item name="android:textSize">40sp</item>
     </style>
 </resources>
