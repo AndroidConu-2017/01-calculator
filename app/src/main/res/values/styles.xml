@@ -19,10 +19,4 @@
     <style name="buttons.alt" >
         <item name="android:background">@color/pinkish</item>
     </style>
-    <style name="style1.pink" >
-        <item name="android:textColor">#FF00FF</item>
-    </style>
-    <style name="style1.pink.big" >
-        <item name="android:textSize">40sp</item>
-    </style>
 </resources>
